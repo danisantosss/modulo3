@@ -64,3 +64,10 @@ console.log(b)
 console.log(c)
 console.log(d)
 
+function minhafunc(a,b,c,d){
+    console.log(a)
+    console.log(b)
+    console.log(c)
+    console.log(d)
+}
+minhafunc(...lista) //SPREAD Operator
