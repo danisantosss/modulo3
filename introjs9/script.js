@@ -16,3 +16,7 @@ let lista3 = ['☕','☕','🥛','☕']
 let novalista = lista3.map((item) => (item==='☕'?1:0))
 let total = novalista.reduce((soma, item) => soma + item)
 console.log(total);
+
+total = lista3.map((item) => (item==='☕'?1:0))
+              .reduce((soma, item) => soma + item)
+console.log(total);
