@@ -1,0 +1,29 @@
+<h3>Novo Cliente</h3>
+<hr>
+<form action="/clientes/save" method="POST">
+    <div class="form-group">
+        <label for="txtnome">Nome:</label>
+        <input type="text" name="nome"
+            id="txtnome" class="form-control">
+    </div>
+    <!--colocar os demais campos do cliente-->
+    <div class="form-group">
+        <label for="txtendereco">Endereço:</label>
+        <input type="text" name="endereco"
+            id="txtendereco" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="txtsexo">Sexo:</label>
+        <input type="text" name="sexo"
+            id="txtsexo" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="txttelefone">Telefone:</label>
+        <input type="text" name="telefone"
+            id="txttelefone" class="form-control">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

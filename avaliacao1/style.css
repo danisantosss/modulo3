@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+.container{
+    border: solid 1px black;
+    display: grid;
+    grid-template: 
+    'topo'
+    'servico'
+    'figura'
+    ;
+}
+.topo {
+    grid-area: topo;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px black;
+}
+.nav {
+    word-spacing: 10px;
+}
+img {
+    width: 100%;
+}
+.figura {
+    border: 5px solid black;
+    grid-area: figura;
+}
+.servico {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    grid-area: servico;
+}
